@@ -28,5 +28,5 @@ public class ProductResource {
 	private ResponseEntity<Product> findById (@PathVariable Long id) {
 		return ResponseEntity.ok().body(service.findById(id));
 	}
-
+	
 }
